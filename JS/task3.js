@@ -18,19 +18,12 @@ const images = [
 
 const galleryRef = document.querySelector('#gallery');
 galleryRef.classList.add('gallery');
-const imageGallery = images.map(image => (
-  image = `<li class="gallery__item"><img src="${image.url}" alt="${image.alt}" width = 100%></li>`)
-
+const imageGallery = images.map(
+  image =>
+    (image = `<li class="gallery__item"><img src="${image.url}" alt="${image.alt}" width = 100%></li>`),
+);
 
 galleryRef.insertAdjacentHTML('afterbegin', imageGallery.join(''));
-
-
-
-
-
-
-
-
 
 // // Задание 3
 // // Напиши скрипт для создания галлереи изображений по массиву данных.
@@ -71,8 +64,6 @@ galleryRef.insertAdjacentHTML('afterbegin', imageGallery.join(''));
 
 // ulRef.insertAdjacentHTML("afterbegin", imagesRef.join(""));
 // console.log(ulRef);
-
-
 
 // const images = [
 //   {
