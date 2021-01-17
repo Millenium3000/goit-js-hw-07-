@@ -11,15 +11,15 @@
 }
 
 .gallery {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .gallery__item {
-    list-style: none;
+  list-style: none;
 }
 
 .gallery__item:not(:last-child) {
-    margin-right: 10px;
+  margin-right: 10px;
 }
